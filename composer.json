@@ -1,0 +1,30 @@
+{
+    "name": "ofearn/tobet",
+    "description": "基于ThinkPHP 6.0的Api开发框架",
+    "homepage": "https://github.com/ofearn/tobet",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "ofearn",
+            "email": "ofearn@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ofearn/tobet/issues"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "pda/pheanstalk": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tobet\\": "src/"
+        },
+        "files": [
+            "src/common.php"
+        ]
+    }
+}
